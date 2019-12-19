@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "fichas": [
+    {
+      "dt_inclusao": "dd/MM/yyyy hh:mm:ss",
+      "dt_validade": "dd/MM/yyyy hh:mm:ss",
+      "status_profissional": "",
+      "ativo": true,
+      "renovar": true,
+      "cliente": {
+        "codigo": 111,
+        "razao_social": "AAAA"
+      },
+      "usuario_solicitacao": {
+        
+      },
+      "profissional":{
+      },
+      "produto":{
+      }
+    }
+  ]
 }
